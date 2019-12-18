@@ -1,0 +1,15 @@
+C:\IdeaProjects\Restaurant_service_3\src\main\java\com\rest\config\Configuration.java
+C:\IdeaProjects\Restaurant_service_3\src\main\java\com\rest\services\CostOfCookingService.java
+C:\IdeaProjects\Restaurant_service_3\src\main\java\com\rest\utils\HibernateUtil.java
+C:\IdeaProjects\Restaurant_service_3\src\main\java\com\rest\controller\CostOfCookingController.java
+C:\IdeaProjects\Restaurant_service_3\src\main\java\com\rest\models\CostOfCooking.java
+C:\IdeaProjects\Restaurant_service_3\src\main\java\com\rest\models\OrderedDish.java
+C:\IdeaProjects\Restaurant_service_3\src\main\java\com\rest\dao\CostOfCookingDao.java
+C:\IdeaProjects\Restaurant_service_3\src\main\java\com\rest\models\Profit.java
+C:\IdeaProjects\Restaurant_service_3\src\main\java\com\rest\controller\ProfitController.java
+C:\IdeaProjects\Restaurant_service_3\src\main\java\com\rest\dao\DeliveryCompanyDao.java
+C:\IdeaProjects\Restaurant_service_3\src\main\java\com\rest\dao\ProfitDao.java
+C:\IdeaProjects\Restaurant_service_3\src\main\java\com\rest\services\ProfitsService.java
+C:\IdeaProjects\Restaurant_service_3\src\main\java\com\rest\models\DeliveryCompany.java
+C:\IdeaProjects\Restaurant_service_3\src\main\java\com\rest\config\MvcConfig.java
+C:\IdeaProjects\Restaurant_service_3\src\main\java\com\rest\dao\OrderedDishDao.java

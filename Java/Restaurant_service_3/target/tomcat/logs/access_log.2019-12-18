@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [18/Dec/2019:04:28:08 +0400] "GET / HTTP/1.1" 404 949 http-bio-8000-exec-1 51
+0:0:0:0:0:0:0:1 - - [18/Dec/2019:04:28:09 +0400] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-8000-exec-3 2
+0:0:0:0:0:0:0:1 - - [18/Dec/2019:04:28:23 +0400] "GET /getallprofits HTTP/1.1" 500 3821 http-bio-8000-exec-4 688
+0:0:0:0:0:0:0:1 - - [18/Dec/2019:04:29:01 +0400] "GET /getprofit?id=1 HTTP/1.1" 500 3819 http-bio-8000-exec-6 26
+0:0:0:0:0:0:0:1 - - [18/Dec/2019:04:35:12 +0400] "GET /getprofit?id=1 HTTP/1.1" 200 - http-bio-8000-exec-1 3295
+0:0:0:0:0:0:0:1 - - [18/Dec/2019:04:35:20 +0400] "GET /getallprofits HTTP/1.1" 200 12 http-bio-8000-exec-3 160
+0:0:0:0:0:0:0:1 - - [18/Dec/2019:21:38:27 +0400] "GET /getallorderreddishes HTTP/1.1" 404 949 http-bio-8000-exec-1 62
+0:0:0:0:0:0:0:1 - - [18/Dec/2019:21:38:27 +0400] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-8000-exec-3 2
+0:0:0:0:0:0:0:1 - - [18/Dec/2019:22:02:11 +0400] "GET / HTTP/1.1" 404 949 http-bio-8000-exec-1 79
+0:0:0:0:0:0:0:1 - - [18/Dec/2019:22:02:12 +0400] "GET / HTTP/1.1" 404 949 http-bio-8000-exec-3 3
+0:0:0:0:0:0:0:1 - - [18/Dec/2019:22:02:23 +0400] "GET /getallcookingcosts HTTP/1.1" 500 11550 http-bio-8000-exec-4 3456
+95.28.236.67 - - [18/Dec/2019:22:08:57 +0400] "GET / HTTP/1.1" 404 949 http-bio-8000-exec-7 4

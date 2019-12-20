@@ -5,6 +5,7 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 import com.rest.utils.HibernateUtil;
 import org.hibernate.transform.Transformers;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;
@@ -17,6 +18,12 @@ import java.util.Arrays;
 import java.util.List;
 
 public class DeliveryCompanyDao {
+
+//    @Bean
+//    public RestTemplate restTemplate() {
+//        return new RestTemplate();
+//    }
+//    @Autowired private RestTemplate restTemplate;
 
     public DeliveryCompany getCompanyById (int id)
     {

@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [21/Dec/2019:02:01:09 +0400] "POST /postprofit HTTP/1.1" 500 2979 http-bio-8000-exec-1 6659
+0:0:0:0:0:0:0:1 - - [21/Dec/2019:02:01:46 +0400] "GET /getallprofits HTTP/1.1" 200 98 http-bio-8000-exec-2 57

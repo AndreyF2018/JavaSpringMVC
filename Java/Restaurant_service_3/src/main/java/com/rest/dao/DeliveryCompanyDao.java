@@ -1,6 +1,8 @@
 package com.rest.dao;
 
 import com.rest.models.DeliveryCompany;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
@@ -11,6 +13,13 @@ import java.util.Arrays;
 import java.util.List;
 
 public class DeliveryCompanyDao {
+
+//    @Bean
+//    public RestTemplate restTemplate() {
+//        return new RestTemplate();
+//    }
+//    @Autowired
+//    private RestTemplate restTemplate;
 
     public DeliveryCompany getCompanyById (int id)
     {

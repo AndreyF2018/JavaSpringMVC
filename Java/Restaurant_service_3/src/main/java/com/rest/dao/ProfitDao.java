@@ -31,7 +31,6 @@ public class ProfitDao {
         }
         else {
             if (profit.getOredrCost() == 0.0f || profit.getPercentDeliveries() == 0 || profit.getNetProfit() == 0.0f) {
-                System.out.println("11111111111");
                 OrderedDish orderedDish = new OrderedDish();
                 List<OrderedDish> orderedDishes = new ArrayList<OrderedDish>();
                 orderedDishes = orderedDishDao.getAllOrderedDishes();
@@ -39,7 +38,6 @@ public class ProfitDao {
                 System.out.println(profit.getOrderId());
                 for (OrderedDish item : orderedDishes) {
                     if (profit.getOrderId() == item.getOnlineOrderId()) {
-                        System.out.println("222222222");
                         System.out.println("OrderCost = " + orderedDishDao.getOrderPrice(profit.getOrderId()));
                         profit.setOredrCost(orderedDishDao.getOrderPrice(profit.getOrderId()));
                         DeliveryCompany company = new DeliveryCompany();

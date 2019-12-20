@@ -4,6 +4,7 @@ import com.rest.models.Profit;
 import com.rest.services.ProfitsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -36,6 +37,12 @@ public class ProfitController {
     public Profit getProfitByOrderId(int id)
     {
         return profitsService.getProfitByOrderId(id);
+
+    }
+
+    @RequestMapping(method = RequestMethod.POST, value = "postprofit")
+    public void postOrderPrice(@RequestBody Profit profit) throws Exception {
+        profitsService.saveProfit(profit);
 
     }
 }

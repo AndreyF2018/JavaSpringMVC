@@ -13,9 +13,14 @@ public class Configuration {
         //DishService dishService = new DishService();
         //dishService.getAllDishes();
 
-        Profit profit = new Profit(1);
-        ProfitsService profitsService = new ProfitsService();
-        profitsService.saveProfit(profit);
+//        Profit profit = new Profit(1);
+//        ProfitsService profitsService = new ProfitsService();
+//        profitsService.saveProfit(profit);
+
+        /*
+        {"orderId" : 1
+        }
+         */
 
 //        OrderedDishDao orderedDishDao= new OrderedDishDao();
 //        orderedDishDao.getAllOrderedDishes();

@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:23:02:11 +0400] "GET /getalldish HTTP/1.1" 404 949 http-bio-8888-exec-2 51
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:23:02:34 +0400] "GET /getalldish HTTP/1.1" 404 949 http-bio-8888-exec-3 3
+92.118.161.25 - - [20/Dec/2019:23:02:37 +0400] "GET / HTTP/1.0" 404 949 http-bio-8888-exec-5 3
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:23:03:08 +0400] "GET / HTTP/1.1" 404 949 http-bio-8888-exec-6 7
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:23:03:09 +0400] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-8888-exec-8 2
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:23:03:15 +0400] "GET /getalldish HTTP/1.1" 404 949 http-bio-8888-exec-9 6
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:23:03:34 +0400] "GET /getalldishes HTTP/1.1" 200 348 http-bio-8888-exec-4 4821
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:23:04:20 +0400] "GET /getalldishes HTTP/1.1" 200 348 http-bio-8888-exec-2 17
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:23:04:54 +0400] "POST /adddish HTTP/1.1" 400 968 http-bio-8888-exec-6 67
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:23:05:57 +0400] "POST /adddish HTTP/1.1" 500 2961 http-bio-8888-exec-9 550
